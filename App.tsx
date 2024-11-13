@@ -191,7 +191,7 @@ export default function App() {
             </TouchableOpacity>
           </View>
           <View style={[styles.formButton, styles.colorRed]}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={resetPassword}>
               <Text style={styles.buttonText}>Reset</Text>
             </TouchableOpacity>
           </View>
